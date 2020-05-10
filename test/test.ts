@@ -1,4 +1,4 @@
-import { Validation } from '.';
+import { Validation } from '../src';
 
 
 function assert(name:string,result:any, exp:any) {
