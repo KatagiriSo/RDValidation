@@ -5,8 +5,8 @@
   "description": "Validation function with javascript",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "node ./dist/test.js"
+    "build": "tsc src/index.ts --outDir ./dist --declaration true",
+    "test": "tsc test/test.ts;node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     "url": "https://github.com/KatagiriSo/RDValidation/issues"
   },
   "homepage": "https://github.com/KatagiriSo/RDValidation#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "typescript": "^3.8.3"
   }
 }
