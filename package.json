@@ -1,7 +1,7 @@
 {
   "name": "rdvalidation",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "Validation function with javascript",
   "main": "index.js",
   "scripts": {
