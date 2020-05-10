@@ -1,0 +1,27 @@
+{
+  "name": "rdvalidation",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Validation function with javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatagiriSo/RDValidation.git"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "author": "KatagiriSo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KatagiriSo/RDValidation/issues"
+  },
+  "homepage": "https://github.com/KatagiriSo/RDValidation#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
